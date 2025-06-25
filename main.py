@@ -5,6 +5,7 @@ from aggregation import apply_aggregation
 from tabulate import tabulate
 
 
+# метод для
 def parse_args():
     parser = argparse.ArgumentParser(description="CSV Processor")
     parser.add_argument("file_path", help="Path to the CSV file")
